@@ -1,0 +1,23 @@
+{
+  "name": "full-stack-typescript-with-turborepo-demo",
+  "private": true,
+  "description": "Full stack TypeScript with Turborepo demo",
+  "author": "Omar Elhawary <oedotme@gmail.com> (https://omarelhawary.me)",
+  "license": "MIT",
+  "keywords": [
+    "cache",
+    "demo",
+    "esbuild",
+    "express",
+    "full-stack",
+    "monorepo",
+    "node.js",
+    "optimize",
+    "react",
+    "tsx",
+    "turborepo",
+    "typescript",
+    "vite",
+    "workspaces"
+  ]
+}
