@@ -13,6 +13,7 @@
     "monorepo",
     "node.js",
     "optimize",
+    "pnpm",
     "react",
     "tsx",
     "turborepo",
@@ -22,6 +23,8 @@
   ],
   "scripts": {
     "dev": "turbo run dev",
+    "dev:api": "turbo run dev --filter api",
+    "dev:web": "turbo run dev --filter web --filter api",
     "type-check": "turbo run type-check",
     "build": "turbo run build"
   },
