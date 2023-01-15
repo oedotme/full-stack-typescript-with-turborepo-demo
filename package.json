@@ -19,5 +19,13 @@
     "typescript",
     "vite",
     "workspaces"
-  ]
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "type-check": "turbo run type-check",
+    "build": "turbo run build"
+  },
+  "devDependencies": {
+    "turbo": "^1.7.0"
+  }
 }
